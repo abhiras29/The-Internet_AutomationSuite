@@ -21,5 +21,36 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+    
+        <dependency>
+	    <groupId>org.seleniumhq.selenium</groupId>
+	    <artifactId>selenium-java</artifactId>
+	    <version>3.9.0</version>
+   	</dependency> 
+   	    <dependency>
+		    <groupId>org.seleniumhq.selenium</groupId>
+		    <artifactId>selenium-server</artifactId>
+		    <version>3.9.0</version>
+   	</dependency> 
+   	    <dependency>
+	    <groupId>org.seleniumhq.selenium</groupId>
+	    <artifactId>selenium-chrome-driver</artifactId>
+	    <version>3.9.0</version>
+   	</dependency>
+   	 
+    <dependency>
+	    <groupId>org.seleniumhq.selenium</groupId>
+	    <artifactId>selenium-firefox-driver</artifactId>
+	    <version>3.9.0</version>
+   	</dependency> 
+   	
+   	<dependency>
+	  <groupId>org.testng</groupId>
+	  <artifactId>testng</artifactId>
+	  <version>6.8</version>
+  	  <scope>test</scope>
+	</dependency>
+   	
+   	
   </dependencies>
 </project>
